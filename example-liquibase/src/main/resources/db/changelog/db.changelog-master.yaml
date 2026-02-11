@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/p1-base.sql
+  - include:
+      file: db/changelog/p2-table.sql
+  - include:
+      file: db/changelog/p3-data.sql
